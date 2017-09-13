@@ -84,3 +84,9 @@ This app uses content providers to track persistent information.
 1. LCBOProductRatingsProvider
    - tracks user ratings to be displayed in the LiquorLogsActivity
 
+### Broadcast Receivers
+
+This app uses Broadcast Receivers to handle broadcast intents.
+
+1. OnSuccessfulFetchReceiver
+    - notifies the user with a toast whether a fetch was successful or not
