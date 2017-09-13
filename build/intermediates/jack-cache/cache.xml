@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/garrett/.android/build-cache/bb0f3c0d245a650facd433306554abc364da8d6d/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-92105a6618a72ff0fd5d70eb757e42b28ffb3a3d.jar" />
+    </item>
+    <item
+        jar="/home/garrett/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/constraint-layout-solver-1.0.2-aea5c153ec8ea0edb6164e06df1c6fd018edb298.jar" />
+    </item>
+    <item
+        jar="/home/garrett/Android/Sdk/platforms/android-25/android.jar"
+        revision="25.0.0"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackRuntimeLibraries/release/jars/8000/40/android-875edf4843758898d370b44fb2c257074c2b2d4a.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/0f1a99b8da1ec1555076d9426c9015fbb562511c/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-04408cb69bef8b2ec7ddda24d144107d0a6ce77f.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/c1c41e4c5e7d60b3828caeb8784f6e8beb3f6e63/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-109db6b6fc115b3bdafc7d20c7253aef0dac83bc.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/1080c15534bc35146f45656f404a87205819ee0a/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="241dc995502957d175e101b12edb4821d29e455f">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-1eea192e8c3897fc7b0a58248b5104f335d15a42.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/ef242b37931f52db4daad00c1e579c4fb1d7a8d4/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-a339d9d0b58a4fb3379d927ea6ee634d288b070b.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/32b9163ef7d842dbdd55acbda269d33a23d2c146/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-90274d6655aeeeca16a78b0a8d5e8cf466e98695.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/c4dbc2728a6e9e39b296a8b39245566d5af7bdcb/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-6c9b208ecfda25e8408619b5cf4f97ef747ce237.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        revision="25.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/androidannotations-api-3.2-184af34a4494d50ac34f7cd970da9836acd482c2.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/51a7313aefca977951afceb51fd083aa3a94a679/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="379a48c2da13ffb7ec7134f2c715663834357670">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-78869fe2df6ae96827658206d5b36c66e2ae02e8.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/37b99cf6b45be9017b869a67801e0ecd4a6ba31a/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-cf098daee72134539ec50a597e30899c5968b6dd.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/cd9f15884af298253ec2c36c069a3be00b8dd7c8/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-3ab42b503613c4b50a41761ddd618fd528d9c309.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/03fbcff7a1d0ead5e0c5828355cf7041d9b90d4f/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-63ed5f480bb94b163d0d7795143c57ddf1d0021c.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/7b76c949e57799fee792d8c27442497e10eb0dfc/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-06a0a8ac67fab0decad2d2348d71299b3de9f4fd.jar" />
+    </item>
+    <item
+        jar="/home/garrett/Android/Sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackRuntimeLibraries/release/jars/8000/40/org.apache.http.legacy-79e85caeb2d8983857769996829a9d77b558bdf7.jar" />
+    </item>
+    <item
+        jar="/home/garrett/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/support-annotations-25.3.1-e2890d6ccc253c458a8e14faa3ef795d1cf1e025.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/499513256276203ccef1044fb8b47bde5af92afe/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-b930260eaf2530e7d6ea4643046a79d7bc7da7a7.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/b57dd2dc4b35e20c3ac45e4fc8fdaca313a4679f/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-4e57b9cb1896cbd1420cdb348df06246d3310b0c.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/e2cead08dbd8b208a406782dfbbfaf2b9ca75636/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-b886c15fef19a807161354a9c8adc5a5130e5b14.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/ba3d1805d59a1f62af04f8831c8075fc3f785169/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-255010a7aae3a8f99ca1289db4bdd0558a85a78d.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/9ac56c3dbce55bd3d4106a02b6f0042c72f59014/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-e577c6ad070baaec5e27e52584ff169667ba2e5a.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/b3d8a0f88cf0a725ff58cc4b3dec53b54dcf9ca9/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="bf481b2af4d8f89935baf75972976b5681533176">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-05039d8100da9d99f3918bbd9f8c860aa785117e.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/f9bb24296fdd30bf2286953e21352ea137bbda00/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-3766f02f49c3a68d5cc53d33a0ac084ad333366a.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/77d09e841c6a1551aecb28d3f483f1688168d598/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-139714f06c262c9cb47eeee24d7d17a546d2dcf5.jar" />
+    </item>
+    <item
+        jar="/home/garrett/.android/build-cache/1a01339eafd99059108ae412fec098bca461f15a/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/garrett/StudioProjects/the_liquor_cabinet/app/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-bfd5ad2a14722cc7ed95e4d071de6b4544afb074.jar" />
+    </item>
+
+</items>

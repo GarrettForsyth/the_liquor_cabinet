@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_shelf">
+
+    <TextView
+        android:id="@+id/recommendation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recommendations"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#f4d433" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prev_products_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/previous"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/more_products_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/more"
+            android:textColor="#f4d433" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout android:name="com.games.garrett.theliquorcabinet.fragments.DisplayProductsFragment"
+        android:id="@+id/product_list_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.games.garrett.theliquorcabinet">
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activities.BrowseActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.DetailsActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.SettingsActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.LiquorLogActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.RecommendationActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.QuickRateActivity"
+            android:exported="false"/>
+
+        <service
+            android:name=".services.LCBOService"
+            android:exported="false">
+        </service>
+
+        <service
+            android:name=".services.RecommendationDBService"
+            android:exported="false">
+        </service>
+
+        <provider
+            android:name=".provider.LCBOProductRatingProvider"
+            android:authorities="com.theliquorcabinet"
+            android:exported="false">
+        </provider>
+
+        <receiver
+            android:name=".receivers.OnSuccessfulFetchReceiver"
+            android:process=":.OnSuccessfulFetchReceiver"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.games.garrett.theliquorcabinet.action.NOTIFY_SUCCESSFUL_FETCH"></action>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

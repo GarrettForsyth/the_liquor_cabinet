@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wooden_shelf"
+    android:nestedScrollingEnabled="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/details_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f4d433"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/details_producer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f4d433"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/details_product_name"/>
+
+        <ImageView
+            android:id="@+id/details_product_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/details_producer_name"/>
+
+        <TextView
+            android:id="@+id/details_product_on_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/details_product_image"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_sale_end_date"
+            android:layout_alignEnd="@+id/details_product_on_sale"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_image"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/details_product_on_sale"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_on_promotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f4d433"
+            android:layout_alignEnd="@+id/details_product_price"
+            android:layout_below="@+id/details_product_sale_end_date"
+            android:layout_alignParentEnd="true"/>
+
+
+        <TextView
+            android:id="@+id/details_product_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_on_promotion"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_description"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_origin"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_primary_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_style"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_secondary_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_primary_category"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_tertiary_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_secondary_category"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_tasting_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_tertiary_category"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_alcohol_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_tasting_note"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_sugar_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/details_product_alcohol_content"
+            android:layout_below="@+id/details_product_tasting_note"
+            android:layout_alignParentEnd="true"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details_product_alcohol_content"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/details_product_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/details_product_volume"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/details_product_alcohol_content"
+            android:textColor="#f4d433"/>
+
+        <TextView
+            android:id="@+id/inventory_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/local_stores_inventory"
+            android:textSize="20sp"
+            android:layout_below="@+id/details_product_units"
+            android:textColor="#f4d433"/>
+
+        <LinearLayout
+            android:id="@+id/inventory_linear_layout"
+            android:layout_below="@+id/inventory_list_title"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f4d433">
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+

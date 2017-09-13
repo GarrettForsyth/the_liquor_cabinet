@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Ontario\'s Liquor Cabinet</string>
+
+    <string name="API_URL">https://lcboapi.com/</string>
+    <string name="LCBO_DEV_API_KEY">OMITTED</string>
+
+    <string name="MESSENGER_KEY">MESSENGER_KEY</string>
+    <string name="REQUEST_CODE">REQUEST_CODE</string>
+    <string name="SERVICE_URL">SERVICE_URL</string>
+    <string name="ITEM_ARRAY_KEY">ITEM_ARRAY_KEY</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">vodka</string>
+    <string name="sort_by">Sort By</string>
+    <string name ="sort_hint">price</string>
+    <string name ="from_store">From</string>
+
+    <string-array name="sort_by_choices">
+        <item>No Order</item>
+        <item>Price</item>
+        <item>Sale End Date</item>
+        <item>Package Volume</item>
+        <item>Package Units</item>
+        <item>Volume</item>
+        <item>Alcohol Content</item>
+        <item>Price per Liter</item>
+        <item>Price per Alcohol Liter</item>
+        <item>Release Date</item>
+    </string-array>
+
+    <string name="app_title">ONTARIO\'S LIQUOR CABINET</string>
+    <string name="browse">BROWSE</string>
+    <string name="recommend">RECOMMEND</string>
+    <string name="recommendations">RECOMMENDATIONS</string>
+    <string name="settings">HELP</string>
+    <string name="liquor_logs">LIQUOR LOGS</string>
+    <string name="quick_rate">QUICK RATE</string>
+
+    <string name="search_button">Search</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="more">MORE</string>
+    <string name="ascending">asc</string>
+    <string name="descending">dsc</string>
+
+    <string name="radius">SEARCH RADIUS (KM) </string>
+    <string name="notify_sale">NOTIFY WHEN THINGS I LIKE ARE ON SALE</string>
+    <string name="notify_sale_ends">REMIND ME BEFORE SALE ENDS</string>
+    <string name="reset_location">RESET LOCATION</string>
+
+
+    <string name="context_menu_details">Details</string>
+    <string name="context_menu_delete">Delete</string>
+
+
+    <string name="find_local_stores_with_item">CHECK LOCAL INVENTORY FOR THIS TIME</string>
+    <string name="local_stores_inventory">Local Stores\' Inventory:</string>
+
+    <string name="about_title">ABOUT</string>
+    <string name="about">This app gives drink recommendations from the LCBO. It also allows the user to explore
+        the LCBO\'s inventory and search for particular items. \n\n To use this app: \n
+        1) From the main menu touch either the \'QUICK RATE\' or \'BROWSE\' options.
+          If in \'BROWSE\', fill out any desired search options and click on the search button. \n\n
+        2) You will be presented with a list of LCBO drinks. For detailed information on a product, tap it.
+        To rate a product, swipe right for drinks you like and left for drinks you don\'t. The more
+        products your rate, the more accurate your recommendations will be.\n\n
+        3) After rating some products, press the back button to get to the main menu. From there click \'RECOMMEND\'.
+         The details of an item (presented when an item is touched) will inform the user which local stores are currently
+        carrying this item. \n\n
+        4) To review past ratings, choose the \'LOGS\' button from the main menu. From there you can long click
+        on a particular item to either view its details, or delete it from your rating profile.\n\n
+        5) Under \'Settings\', you may choose how far the app should search for local stores. You also have
+        the option to delete all past ratings you have given.\n\n
+        Note: Sometimes, if you filter items through a particular store and click on the details, the local
+        store will not appear in the list of stores that carry the item. This indicates the store usually
+        carries the item but currently has none in stock.\n\n
+        This app is not funded or endorsed by the LCBO.
+
+    </string>
+
+</resources>

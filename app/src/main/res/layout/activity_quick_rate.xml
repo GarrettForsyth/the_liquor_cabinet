@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_shelf">
+
+    <TextView
+        android:id="@+id/quick_rate_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_rate"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#f4d433" />
+
+    <FrameLayout android:name="com.games.garrett.theliquorcabinet.fragments.DisplayProductsFragment"
+        android:id="@+id/product_list_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

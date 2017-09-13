@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="simpleratingbar-0.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/1080c15534bc35146f45656f404a87205819ee0a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/1080c15534bc35146f45656f404a87205819ee0a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.iarcuschin/simpleratingbar/0.1.5/b0a6ea5ed50012f3131d402bcd4dc41e4bab8b0d/simpleratingbar-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
