@@ -1,4 +1,4 @@
-[![alt text] ./app/src/main/res/drawable/liquore_cabinet_feature.png]
+![alt text](./app/src/main/res/drawable/liquore_cabinet_feature.png)
 
 # Ontario's Liquor Cabinet
 
@@ -32,11 +32,11 @@ When a user rates an item, their rating is stored in a table with their unique u
 
 This app uses key Android components to achieve its objectives:
 
--Activities
--Fragments
--Services
--Content Providers
--Broadcast Receivers
+- Activities
+- Fragments
+- Services
+- Content Providers
+- Broadcast Receivers
 
 In particular:
 
@@ -45,42 +45,42 @@ In particular:
 This app uses activities for single user facing operations. The activities in this app are: 
 
 1. MainActivity 
-- lets the user navigate to the other activities in the app
+ - lets the user navigate to the other activities in the app
 2. BrowseActivity
-- lets the user input query parameters and displays the results returned from the LCBOService 
+ - lets the user input query parameters and displays the results returned from the LCBOService 
 3. DetailsActivity 
-- shows the details of a particular LCBO product, including local inventories
+ - shows the details of a particular LCBO product, including local inventories
 4. QuickRateActivity
-- randomly shows the user LCBO products to rate. This allows the user to quickly establish a user profile
+ - randomly shows the user LCBO products to rate. This allows the user to quickly establish a user profile
 5. RecommendationActivity
-- shows the user a list of recommended items based on their past ratings
+ - shows the user a list of recommended items based on their past ratings
 6. LiquorLogsActivity
-- shows the user their past ratings on items with the option to delete particular ratings
+ - shows the user their past ratings on items with the option to delete particular ratings
 6. SettingsActivity
-- lets the user clear all past ratings, and also change the distance the app will search for local stores
+ - lets the user clear all past ratings, and also change the distance the app will search for local stores
 
 ## Fragments
 
 This app uses fragments to represent portions of the UI in its activities:
 
 1. DisplayProductsFragment
-- Displays paginated lists returned from the services to the user. It allows the user to swipe left or right on an item to rate it, or to touch an item to launch the DetailsActivity
+ - Displays paginated lists returned from the services to the user. It allows the user to swipe left or right on an item to rate it, or to touch an item to launch the DetailsActivity
 2. RatingFragment
-- displays lists of items that the user has previously rated. It allows the user to either view the details or delete items
+ - displays lists of items that the user has previously rated. It allows the user to either view the details or delete items
 
 ## Services 
 
 This app uses services for long running operations.
 
 1. LCBOService
-- interactions with the LCBO API are done through this service
+ - interactions with the LCBO API are done through this service
 2. RecommendationService
-- interactions with the recommendation database are done through this service
+ - interactions with the recommendation database are done through this service
 
 ## Content Providers
 
 This app uses content providers to track persistent information.
 
 1. LCBOProductRatingsProvider
-- tracks user ratings to be displayed in the LiquorLogsActivity
+ - tracks user ratings to be displayed in the LiquorLogsActivity
 
