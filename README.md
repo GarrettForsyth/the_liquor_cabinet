@@ -1,5 +1,13 @@
 ![alt text](./app/src/main/res/drawable/liquore_cabinet_feature.png)
 
+### Important Note:
+  This app used data provided by the [LCBO API](https://lcboapi.com/) which has discontinued its service. As a result, the app will not behave as expected. 
+
+  The LCBO API has been [open sourced](https://github.com/heycarsten/lcbo-api) so if you like, you can deploy the LCBO API locally by following the instructions in link, and change to the request URLs to target your local machine and the app should be working again using the last snapshot from the web crawler.
+
+### Important Note #2:
+  This app is currently being rebuilt from scratch. You can follow the progress [here](https://github.com/GarrettForsyth/LCBORecommendations)!
+
 # Ontario's Liquor Cabinet
 
 Ontario's Liquor Cabinet recommends new drinks in Ontario!
